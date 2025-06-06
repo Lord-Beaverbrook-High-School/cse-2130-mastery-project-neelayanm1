@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        //make sure to use the entire filename and path (not just the filename)
+        String rawPath = "/workspaces/cse-2130-mastery-project-neelayanm1/src/data_raw.txt";
+        String compressedPath = "/workspaces/cse-2130-mastery-project-neelayanm1/src/data_compressed.txt";
+        String decompressedPath = "data_decompressed.txt";
+
+        BinaryCompressor.compressFile(rawPath, compressedPath);
+        BinaryCompressor.decompressFile(compressedPath, decompressedPath);
     }
 }
