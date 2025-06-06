@@ -4,7 +4,7 @@ public class Main {
         String compressedPath = "/workspaces/cse-2130-mastery-project-neelayanm1/src/data_compressed.txt";
         String decompressedPath = "data_decompressed.txt";
 
-        BinaryCompressor.compressFile(rawPath, compressedPath);
-        BinaryCompressor.decompressFile(compressedPath, decompressedPath);
+        Compressor.compressFile(rawPath, compressedPath);
+        Compressor.decompressFile(compressedPath, decompressedPath);
     }
 }
